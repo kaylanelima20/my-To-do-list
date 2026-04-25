@@ -1,2 +1,21 @@
-# my-To-do-list
-lista de tarefas com HTML, CSS e um toque de JavaScrispt básico
+# To-do-list
+
+Aplicação simples de lista de tarfeas desenvolvida com HTML, CSS e JavaScript.
+
+## Funcionalidades
+
+- Adicionar tarefa
+- Marcar como concluída
+- Remover tarefas da lista
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Aprendizados
+
+// (terminar...)
+
+
