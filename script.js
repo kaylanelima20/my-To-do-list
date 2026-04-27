@@ -8,7 +8,7 @@ function addTask() {
     li.textContent = input.value;
 
     // clicar para concluir tarefa
-    li.onlink = function () {
+    li.onclick = function () {
         li.style.textDecoration = "line-through";
     };
 
@@ -17,7 +17,7 @@ function addTask() {
     btn.textContent = "X";
 
     btn.onclick = function () {
-        list.removerChild(li);
+        list.removeChild(li);
     };
 
     li.appendChild(btn);
