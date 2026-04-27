@@ -16,6 +16,14 @@ Aplicação simples de lista de tarfeas desenvolvida com HTML, CSS e JavaScript.
 
 ## Aprendizados
 
-// (terminar...)
+- Manipulação com DOM com JavaScript
+- Interação com o usuário
+- Lógica de programação aplicada
+- Organização de elementos
+
+## Autor
+
+Desenvolvido por Kaylane Lima.
+
 
 
