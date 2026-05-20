@@ -69,3 +69,8 @@ li button {
 li button:hover {
     background: #6a11cb;
 }
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
