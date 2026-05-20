@@ -1,4 +1,4 @@
-# To-do-list
+# To-do-list com localStorage
 
 Aplicação simples de lista de tarfeas desenvolvida com HTML, CSS e JavaScript.
 
@@ -7,6 +7,7 @@ Aplicação simples de lista de tarfeas desenvolvida com HTML, CSS e JavaScript.
 - Adicionar tarefa
 - Marcar como concluída
 - Remover tarefas da lista
+- Salvar tarefas no localStorage
 
 ## Tecnologias
 
@@ -20,6 +21,7 @@ Aplicação simples de lista de tarfeas desenvolvida com HTML, CSS e JavaScript.
 - Interação com o usuário
 - Lógica de programação aplicada
 - Organização de elementos
+- Criação do localStorage
 
 ## Autor
 
