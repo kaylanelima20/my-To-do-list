@@ -46,3 +46,17 @@ function createTaskElement(taskText) {
 
     list.appendChild(li);
 }
+
+window.onload = function () {
+
+    const savedTasks = localStorage. getItem("tasks");
+
+    if (savedTasks) {
+
+        task = JSON.parse(savedTasks);
+
+        tasks.forEach(task => {
+            createTaskElement(task);
+        });
+    }
+};
