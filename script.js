@@ -1,17 +1,18 @@
-let task = [];
+let tasks = [];
 
-function saveTask(){
-    localStorage.setItem("task", JSON.stringify(task));
+function saveTasks() {
+
+    localStorage.setItem("tasks", JSON.stringify(tasks));
 }
 
 function addTask(){
     const input = document.getElementById("input");
 
-    if (input = document.getElementById("input"));
+    if (input.value === "") return;
      
     tasks.push(input.value);
 
-    saveTask();
+    saveTasks();
 
     createTaskElement(input.value);
 
@@ -25,7 +26,7 @@ function createTaskElement(taskText) {
     const li = document.createElement("li");
 
     li.textContent = taskText;
-    li.onlink = function () {
+    li.onclick = function () {
         li.classList.toggle("done");
     };
 
@@ -33,13 +34,13 @@ function createTaskElement(taskText) {
 
     btn.textContent = "X";
 
-    btn.onlink = function () {
+    btn.onclick = function () {
 
         list.removeChild(li);
 
-        task = tasks.filter(task => task !== taskText);
+        tasks = tasks.filter(task => task !== taskText);
 
-        saveTask();
+        saveTasks();
     };
 
     li.appendChild(btn);
@@ -53,7 +54,7 @@ window.onload = function () {
 
     if (savedTasks) {
 
-        task = JSON.parse(savedTasks);
+        tasks = JSON.parse(savedTasks);
 
         tasks.forEach(task => {
             createTaskElement(task);
